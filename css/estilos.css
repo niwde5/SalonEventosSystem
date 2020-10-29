@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.bg{
+    background: url('../img/dubai.jpg') no-repeat;
+}
+
+.form-container{
+    border: 0px solid;
+    padding: 30px 60px;    
+    margin-top: 15vh;
+    -webkit-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+    box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+}
+
+
+section{
+    padding: 70px 0;
+}
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+/* navbar styling */
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 20px 0;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* home section styling */
+.home .max-width{
+    margin: auto 0 auto 0px;    
+}
+/*Acerca del salon*/
+.about .about-content .column{
+    width: 100%;
+}
+.about .about-content .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.about .about-content p{
+    text-align: justify;
+}
+
+#home{
+    background: #000;
+}
+
+/* footer section styling */
+footer{
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+}
+footer span a{
+    color:orange;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
+
+#reg-exitoso{
+    display: none;
+}
+
+.alertas{
+    display: none;
+    font-size: 14px;
+    color: red;
+}
